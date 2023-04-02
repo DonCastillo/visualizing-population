@@ -4,6 +4,9 @@
 @import 'modules/color.css';
 @import 'modules/container.css';
 @import 'modules/section.css';
+@import 'modules/around-globe.css';
+@import 'modules/icons.css';
+
 
 :root {
     --backdrop-color: whitesmoke;

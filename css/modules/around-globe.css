@@ -1,0 +1,72 @@
+
+.globe-container {
+    width:500px;
+    height:350px;
+    background-color: blanchedalmond;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+}
+.globe-container > * {
+    grid-column: 1;
+    grid-row: 1;
+}
+.globe-focal {
+    background-color: grey;
+    align-self: center;
+    justify-self: center;
+    width: 50px;
+    height: 50px;
+}
+.globe-item {
+    animation: spinAround 6s linear infinite;
+}
+
+.globe-item:nth-of-type(1) {
+    animation-delay: -0.5s;
+}
+.globe-item:nth-of-type(2) {
+    animation-delay: -1s;
+}
+.globe-item:nth-of-type(3) {
+    animation-delay: -1.5s;
+}
+.globe-item:nth-of-type(4) {
+    animation-delay: -2s;
+}
+.globe-item:nth-of-type(5) {
+    animation-delay: -2.5s;
+}
+.globe-item:nth-of-type(6) {
+    animation-delay: -3s;
+}
+.globe-item:nth-of-type(7) {
+    animation-delay: -3.5s;
+}
+.globe-item:nth-of-type(8) {
+    animation-delay: -4s;
+}
+.globe-item:nth-of-type(9) {
+    animation-delay: -4.5s;
+}
+.globe-item:nth-of-type(10) {
+    animation-delay: -5s;
+}
+.globe-item:nth-of-type(11) {
+    animation-delay: -5.5s;
+}
+.globe-item:nth-of-type(12) {
+    animation-delay: -6s;
+}
+.globe-item:nth-of-type(13) {
+    animation-delay: -6.5s;
+}
+
+@keyframes spinAround {
+    from {
+        transform: rotate(0deg) translate(120px);
+      }
+      to {
+        transform: rotate(360deg) translate(120px);
+      }
+}
