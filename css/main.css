@@ -1,0 +1,14 @@
+@import 'modules/normalize.css';
+@import 'modules/generic.css';
+@import 'modules/font.css';
+@import 'modules/color.css';
+@import 'modules/container.css';
+@import 'modules/section.css';
+
+:root {
+    --backdrop-color: whitesmoke;
+}
+
+body {
+    background-color: var(--backdrop-color);
+}
