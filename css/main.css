@@ -6,11 +6,13 @@
 @import 'modules/section.css';
 @import 'modules/around-globe.css';
 @import 'modules/icons.css';
+@import 'modules/animation.css';
+@import 'modules/card.css';
+@import 'modules/pop-distribution.css';
 
 /* backpacker
 @import 'webfont-backpacker/BPdots.css';
 @import 'webfont-backpacker/BPdotsBold.css'; */
-
 
 :root {
     --backdrop-color: whitesmoke;

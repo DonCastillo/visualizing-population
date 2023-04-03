@@ -11,3 +11,11 @@
 .text-right {
     text-align: right;
 }
+
+.display-hide {
+    display:none;
+}
+
+.section {
+    /* background-color: yellowgreen; */
+}

@@ -1,0 +1,54 @@
+.timeline-card {
+    margin-bottom: 90px;
+}
+
+.timeline-card__header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size:4rem;
+}
+
+.timeline-card__title {
+    margin-right:15%;
+    min-width:250px;
+    width:20%;
+    /* background-color: orange; */
+    /* line-height: 1.5rem; */
+}
+
+.timeline-card__count {
+    width:80%;
+    font-size:3rem;
+    z-index:-1;
+    position:relative;
+}
+
+.timeline-card__body {
+    background-color: var(--backdrop-color);
+}
+
+.timeline-card__heading {
+    font-size:4rem;
+}
+
+.timeline-card__time {
+    min-height:33px;
+    padding:10px;
+    background-color:  #7dcea0;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:768px) {
+    .timeline-card__header {
+        display:block;
+    }
+    .timeline-card__count {
+        width:100%;
+        font-size:2rem;
+    }
+    .timeline-card__title {
+        width: 100%;
+    }
+}

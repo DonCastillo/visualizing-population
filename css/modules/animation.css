@@ -1,0 +1,39 @@
+@keyframes elongate {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
+@keyframes people-up {
+    from {
+        transform: translateY(50px);
+        height:0%;
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        height:100%;
+        opacity: 1;
+    }
+}
+
+
+.animation-elongate {
+    animation-name: elongate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    /* animation-delay: 1s; */
+}
+
+.animation-people-up {
+    animation-name: people-up;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    /* opacity: 0; */
+    /* transform: translateY(50px); */
+
+}

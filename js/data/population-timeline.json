@@ -1,0 +1,68 @@
+{
+    "data": [
+        {
+            "title": "1 Billion",
+            "count": 10,
+            "start": "Beginning of Human History",
+            "end": "1803",
+            "length": 400,
+            "ratio": 100
+        },
+        {
+            "title": "2 Billion",
+            "count": 20,
+            "start": "1803",
+            "end": "1927",
+            "length": 124,
+            "ratio": 88.6
+        },
+        {
+            "title": "3 Billion",
+            "count": 30,
+            "start": "1927",
+            "end": "1960",
+            "length": 33,
+            "ratio": 23.6
+        },
+        {
+            "title": "4 Billion",
+            "count": 40,
+            "start": "1960",
+            "end": "1975",
+            "length": 15,
+            "ratio": 10.7
+        },
+        {
+            "title": "5 Billion",
+            "count": 50,
+            "start": "1975",
+            "end": "1987",
+            "length": 12,
+            "ratio": 8.6
+        },
+        {
+            "title": "6 Billion",
+            "count": 60,
+            "start": "1987",
+            "end": "1999",
+            "length": 12,
+            "ratio": 8.6
+        },
+        {
+            "title": "7 Billion",
+            "count": 70,
+            "start": "1999",
+            "end": "2011",
+            "length": 12,
+            "ratio": 8.6
+        },
+        {
+            "title": "8 Billion",
+            "count": 80,
+            "start": "2011",
+            "end": "2024",
+            "length": 13,
+            "ratio": 9.3
+        }
+    ]
+}

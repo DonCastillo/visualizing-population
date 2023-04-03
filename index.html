@@ -12,7 +12,8 @@
     <title>Visualizing the 8 billion population</title>
 </head>
 <body>
-    <header class="section flex-center-center">
+
+    <header class="section flex-center-center display-hide">
         <div class="container-sm">
             <div class="row flex-center-center ">
                 <div class="globe-container">
@@ -39,10 +40,29 @@
                 </h1>
             </div>
         </div>
-
     </header>
-    <main>Main</main>
+
+    <main>
+        <div class="section display-hide">
+            <div class="container-lg">
+                <div class="row" id="timeline">
+                </div>
+            </div>
+        </div>
+
+        <!-- Population deistribution -->
+        <div class="section">
+            <div class="container-lg">
+                <div class="row" id="pop-distribution">
+                    <div class="pop-distribution">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer>footer</footer>
     <script src="./js/jquery.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
