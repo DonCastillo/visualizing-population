@@ -7,11 +7,19 @@
 @import 'modules/around-globe.css';
 @import 'modules/icons.css';
 
+/* backpacker
+@import 'webfont-backpacker/BPdots.css';
+@import 'webfont-backpacker/BPdotsBold.css'; */
+
 
 :root {
     --backdrop-color: whitesmoke;
+    --main-text-color: #424949;
+    --main-text-font: 'Anton', 'Arial', sans-serif;
 }
 
 body {
     background-color: var(--backdrop-color);
+    color: var(--main-text-color);
+    font-family: var(--main-text-font);
 }

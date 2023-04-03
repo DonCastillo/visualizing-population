@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'BPdotsPlus';
+    src: url('BPdotsPlus.eot'); /* IE9 Compat Modes */
+    src: url('BPdotsPlus.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('BPdotsPlus.woff') format('woff'), /* Modern Browsers */
+         url('BPdotsPlus.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}

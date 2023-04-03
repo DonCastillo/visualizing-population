@@ -1,8 +1,8 @@
 
 .globe-container {
-    width:500px;
-    height:350px;
-    background-color: blanchedalmond;
+    /* width:500px; */
+    height:250px;
+    /* background-color: blanchedalmond; */
     display:grid;
     justify-content: center;
     align-content: center;
@@ -12,11 +12,11 @@
     grid-row: 1;
 }
 .globe-focal {
-    background-color: grey;
+    /* background-color: grey; */
     align-self: center;
     justify-self: center;
-    width: 50px;
-    height: 50px;
+    /* width: 50px;
+    height: 50px; */
 }
 .globe-item {
     animation: spinAround 6s linear infinite;

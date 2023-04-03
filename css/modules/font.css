@@ -1,0 +1,21 @@
+@import './../fonts/webfont-backpacker/BPdotsBold.css';
+
+@font-face {
+    font-family: 'LabDJR-VF';
+    src: url('./../fonts/webfont-lab-djr/LabDJR_Web/LabDJR-VF.woff2') format('woff2-variations') ;
+}
+
+
+.dotted {
+    /* color: green; */
+    font-family: 'LabDJR-VF';
+    /* font-family: 'BPdots'; */
+    font-weight: 700;
+    font-variation-settings: "bevl" 200, "oval" 0, "quad", 837.89, "size" 245.22;
+    --webkit-font-variation-settings: "bevl" 200, "oval" 0, "quad", 837.89, "size" 245.22;
+    font-size:6rem;
+}
+
+h1 {
+    font-size:3rem;
+}

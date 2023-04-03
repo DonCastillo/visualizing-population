@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'BPdotsCondensedSquare';
+    src: url('BPdotsCondensedSquare.eot'); /* IE9 Compat Modes */
+    src: url('BPdotsCondensedSquare.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('BPdotsCondensedSquare.woff') format('woff'), /* Modern Browsers */
+         url('BPdotsCondensedSquare.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}

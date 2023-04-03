@@ -1,7 +1,23 @@
 .container-lg {
     max-width: 1200px;
+    width:100%;
     margin:0 auto;
     background-color: pink;
+}
+.container-md {
+    max-width:992px;
+    width:100%;
+    margin:0 auto;
+}
+.container-sm {
+    max-width:768px;
+    width:100%;
+    margin:0 auto;
+}
+.container-xs {
+    max-width:480px;
+    width:100%;
+    margin:0 auto;
 }
 .row {
     padding:0 15px;
