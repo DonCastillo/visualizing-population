@@ -4,7 +4,7 @@ function TimelineCard(data, index, target) {
             <div class="timeline-card__header">
                 <div class="timeline-card__title">
                     <div><small>${data.start} - ${data.end}</small></div>
-                    <div class="timeline-card__heading">${data.title}</div>
+                    <div class="timeline-card__heading lab-djr-font lab-djr-regular-pixel">${data.title}</div>
                 </div>
                 <div class="timeline-card__count" id="person-count-${index}b"></div>
             </div>

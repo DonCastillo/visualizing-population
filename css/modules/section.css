@@ -1,4 +1,10 @@
 .section {
-    /* background-color: yellowgreen; */
     min-height:100vh;
+    padding: 35px 0;
 }
+
+.section__title {
+    background-color: yellowgreen;
+    font-size:2.5rem;
+}
+

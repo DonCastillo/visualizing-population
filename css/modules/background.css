@@ -7,5 +7,5 @@
 .bgimage--crowd-bg {
     background-image: url('./../../imgs/pexels-lt-chan-2833373.jpg');
     background-color: #00000030;
-background-blend-mode: soft-light;
+    background-blend-mode: soft-light;
 }
