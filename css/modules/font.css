@@ -18,33 +18,22 @@ h1 {
 small {
     font-size:1rem !important;
 }
-
-
-.lf-font {
-    font-family: 'Roboto Flex Regular', sans-serif;
-    font-variation-settings: "opsz" 14, "wght" 400, "GRAD" 0, "wdth" 100, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
-    -webkit-font-variation-settings: "opsz" 14, "wght" 400, "GRAD" 0, "wdth" 100, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+.mark {
+    background-color:var(--highlight-text-color);
 }
-
-.lf-font--regular {
-    font-family: 'Roboto Flex Regular', sans-serif;
-    font-variation-settings: "wght" 227.12, "GRAD" 11.33;
-    -webkit-font-variation-settings: "wght" 227.12, "GRAD" 11.33;
+.ft-size-xs {
+    font-size:1.5rem;
+    line-height:2rem;
 }
-
-.lf-font--emphasize {
-    font-family: 'Roboto Flex Regular', sans-serif;
-    font-variation-settings: "wght" 599.91, "GRAD" 11.33;
-    -webkit-font-variation-settings: "wght" 599.91, "GRAD" 11.33;
+.ft-size-sm {
+    font-size:2rem;
+    line-height:2rem;
 }
-
-.lf-font--slant {
-    font-family: 'Roboto Flex Regular', sans-serif;
-    font-variation-settings: "wdth" 151;
-    -webkit-font-variation-settings: "wdth" 151;
+.ft-size-md {
+    font-size:3rem;
+    line-height:3rem;
 }
-
-.ital {
-    font-variation-settings: "opsz" 14, "wght" 1000, "GRAD" 0, "wdth" 100, "slnt" -10, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
-    -webkit-font-variation-settings: "opsz" 14, "wght" 1000, "GRAD" 0, "wdth" 100, "slnt" -10, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+.ft-size-lg {
+    font-size:3.5rem;
+    line-height:3.5rem;
 }

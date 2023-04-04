@@ -1,3 +1,7 @@
+:root {
+    --roboto-width: 57.6;
+    --roboto-weight: 238.51
+}
 @font-face {
     font-family: 'Roboto Flex Regular';
     font-style: normal;
@@ -10,6 +14,22 @@
 .roboto-font {
     font-family: 'Roboto Flex Regular', sans-serif;
 }
+
+.roboto-font-regular {
+    font-variation-settings: "opsz" 14, "wght" var(--roboto-weight), "GRAD" -175.52, "wdth" var(--roboto-width), "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+    -webkit-font-variation-settings: "opsz" 14, "wght" var(--roboto-weight), "GRAD" -175.52, "wdth" var(--roboto-width), "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-font-emphasize {
+    font-variation-settings: "opsz" 14, "wght" 1000, "GRAD" -144.08, "wdth" var(--roboto-width), "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+    -webkit-font-variation-settings: "opsz" 14, "wght" 1000, "GRAD" -144.08, "wdth" var(--roboto-width), "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-font-elongate {
+    font-variation-settings: "opsz" 14, "wght" var(--roboto-weight), "GRAD" -144.08, "wdth" var(--roboto-width), "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 603, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+    -webkit-font-variation-settings: "opsz" 14, "wght" var(--roboto-weight), "GRAD" -144.08, "wdth" var(--roboto-width), "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 603, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
 
 .roboto-flex-regular-thin {
     font-variation-settings: "opsz" 14, "wght" 100, "GRAD" 0, "wdth" 100, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;

@@ -9,17 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@300;500&family=Nunito&family=Oswald:wght@200;500&family=Playfair+Display:wght@400;800&family=Roboto:wght@900&family=Sora:wght@300;400&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/main.css">
     <title>Visualizing the 8 billion population</title>
 </head>
 <body>
 
-    <header class="section flex-center-center color-white bgimage bgimage--crowd-bg display-hides">
+    <header class="section flex-center-center color-white bgimage bgimage--crowd-bg display-hide">
         <div class="container-sm">
             <div class="row flex-center-center ">
                 <div class="globe-container">
@@ -49,14 +45,16 @@
     </header>
 
     <main>
-        <div class="section display-hides">
+
+        <!-- Population timeline -->
+        <div class="section display-hide">
             <div class="container-lg">
                 <div class="row">
-                    <h2 class="section__title lf-font lf-font--slant ital">
-                        <div>On November 15, 2022,</div>
-                        <div>the world population reached 8 billion.</div>
+                    <h2 class="section__title roboto-font roboto-font-regular">
+                        <div>On <span class="roboto-font-emphasize">November 15, 2022</span>,</div>
+                        <div><span class="ft-size-sm">the world population reached</span> <span class="ft-size-md">8 billion.</span></div>
                         <br>
-                        <div>See how long it took the population to increase by a billion throughout the history:</div> 
+                        <div class="ft-size-xs">See how long the population took to increase by a billion throughout the history:</div> 
                     </h2>
                 </div>
             </div>
@@ -66,53 +64,64 @@
         </div>
 
         <!-- Population deistribution -->
-        <div class="section flex-center-center">
+        <div class="section ">
             <div class="container-lg">
-                <div class="row flex-center-center">
-                    <div class="pop-distribution">
-                        <div class="Asia">
-                            <div class="content">
-                                <div class="continent">ASIA</div>
-                                <div class="pop">4.7 B</div>
-                            </div>
-                        </div>
-                        <div class="AsiaX"></div>
-                        <div class="Europe">
-                            <div class="content">
-                                <div class="continent">EUROPE</div>
-                                <div class="pop">750 M</div>
-                            </div>
-                        </div>
-                        <div class="Africa">
-                            <div class="content">
-                                <div class="continent">AFR<br>ICA</div>
-                                <div class="pop">1.4 B</div>
-                            </div>
-                        </div>
-                        <div class="NA">
-                            <div class="content">
-                                <div class="continent"><span>NORTH</span>  <span>AMERICA</span></div>
-                                <div class="pop">602 M</div>
-                            </div>
-                        </div>
-                        <div class="SA">
-                            <div class="content">
-                                <div class="continent"><span>SOUTH</span>  <span>AMERICA</span></div>
-                                <div class="pop">439 M</div>
-                            </div>
-                        </div>
-                        <div class="Oceania">
-                            <div class="content">
-                                <div class="continent">
-                                    <div>OCEA</div>
-                                    <div>NIA</div>
+                <div class="row">
+                    <h2 class="section__title text-center roboto-font roboto-font-regular">
+                        <div class="ft-size-sm">This is the <span class="roboto-flex-regular-thin-italic">population ratio</span> of each continent.</div>
+                        <div class="ft-size-sm"><span class="roboto-font-emphasize ft-size-md">Asia</span> is still the <span class="ft-size-md">most populous</span> continent in the world.</div>
+                    </h2>
+                </div>
+            </div>
+            <div class="flex-center-center">
+                <div class="container-lg">
+                    <div class="row flex-center-center">
+                        <div class="pop-distribution">
+                            <div class="Asia">
+                                <div class="content">
+                                    <div class="continent">ASIA</div>
+                                    <div class="pop">4.7 B</div>
                                 </div>
-                                <div class="pop">44 M</div>
+                            </div>
+                            <div class="AsiaX"></div>
+                            <div class="Europe">
+                                <div class="content">
+                                    <div class="continent">EUROPE</div>
+                                    <div class="pop">750 M</div>
+                                </div>
+                            </div>
+                            <div class="Africa">
+                                <div class="content">
+                                    <div class="continent">AFR<br>ICA</div>
+                                    <div class="pop">1.4 B</div>
+                                </div>
+                            </div>
+                            <div class="NA">
+                                <div class="content">
+                                    <div class="continent"><span>NORTH</span>  <span>AMERICA</span></div>
+                                    <div class="pop">602 M</div>
+                                </div>
+                            </div>
+                            <div class="SA">
+                                <div class="content">
+                                    <div class="continent"><span>SOUTH</span>  <span>AMERICA</span></div>
+                                    <div class="pop">439 M</div>
+                                </div>
+                            </div>
+                            <div class="Oceania">
+                                <div class="content">
+                                    <div class="continent">
+                                        <div>OCEA</div>
+                                        <div>NIA</div>
+                                    </div>
+                                    <div class="pop">44 M</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
         </div>
     </main>
     <footer>footer</footer>

@@ -19,6 +19,7 @@
     --backdrop-color: whitesmoke;
     --main-text-color: #424949;
     --main-text-font: 'Anton', 'Arial', sans-serif;
+    --highlight-text-color: yellow;
 }
 
 body {
