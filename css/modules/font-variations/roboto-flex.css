@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Roboto Flex Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Roboto Flex Regular'), 
+         url('./../../fonts/webfont-roboto/RobotoFlex[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght].ttf') format('truetype'),
+         url('./../../fonts/webfont-roboto/RobotoFlex[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght].woff') format('woff-variations');
+}
+
+.roboto-font {
+    font-family: 'Roboto Flex Regular', sans-serif;
+}
+
+.roboto-flex-regular-thin {
+    font-variation-settings: "opsz" 14, "wght" 100, "GRAD" 0, "wdth" 100, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-extralight {
+    font-variation-settings: "opsz" 14, "wght" 200, "GRAD" 0, "wdth" 100, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-light {
+    font-variation-settings: "opsz" 14, "wght" 300, "GRAD" 0, "wdth" 100, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-regular {
+    font-variation-settings: "opsz" 14, "wght" 400, "GRAD" 0, "wdth" 100, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-medium {
+    font-variation-settings: "opsz" 14, "wght" 500, "GRAD" 0, "wdth" 100, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-semibold {
+    font-variation-settings: "opsz" 14, "wght" 600, "GRAD" 0, "wdth" 100, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-bold {
+    font-variation-settings: "opsz" 14, "wght" 700, "GRAD" 0, "wdth" 100, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-extrabold {
+    font-variation-settings: "opsz" 14, "wght" 800, "GRAD" 0, "wdth" 100, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-black {
+    font-variation-settings: "opsz" 14, "wght" 900, "GRAD" 0, "wdth" 100, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-extrablack {
+    font-variation-settings: "opsz" 14, "wght" 1000, "GRAD" 0, "wdth" 100, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-thin-italic {
+    font-variation-settings: "opsz" 14, "wght" 100, "GRAD" 0, "wdth" 100, "slnt" -10, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-extralight-italic {
+    font-variation-settings: "opsz" 14, "wght" 200, "GRAD" 0, "wdth" 100, "slnt" -10, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-light-italic {
+    font-variation-settings: "opsz" 14, "wght" 300, "GRAD" 0, "wdth" 100, "slnt" -10, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-italic {
+    font-variation-settings: "opsz" 14, "wght" 400, "GRAD" 0, "wdth" 100, "slnt" -10, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-medium-italic {
+    font-variation-settings: "opsz" 14, "wght" 500, "GRAD" 0, "wdth" 100, "slnt" -10, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-semibold-italic {
+    font-variation-settings: "opsz" 14, "wght" 600, "GRAD" 0, "wdth" 100, "slnt" -10, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-bold-italic {
+    font-variation-settings: "opsz" 14, "wght" 700, "GRAD" 0, "wdth" 100, "slnt" -10, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-extrabold-italic {
+    font-variation-settings: "opsz" 14, "wght" 800, "GRAD" 0, "wdth" 100, "slnt" -10, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-black-italic {
+    font-variation-settings: "opsz" 14, "wght" 900, "GRAD" 0, "wdth" 100, "slnt" -10, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}
+
+.roboto-flex-regular-extrablack-italic {
+    font-variation-settings: "opsz" 14, "wght" 1000, "GRAD" 0, "wdth" 100, "slnt" -10, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+}

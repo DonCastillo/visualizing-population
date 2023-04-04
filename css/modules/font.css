@@ -1,84 +1,6 @@
-@font-face {
-    font-family: 'LabDJR-VF';
-    font-style: normal;
-    font-weight: normal;
-    src: local('LabDJR-VF'),
-         url('./../fonts/webfont-lab-djr/LabDJR_TTF/LabDJR-VF.ttf') format('truetype'),
-         url('./../fonts/webfont-lab-djr/LabDJR_Web/LabDJR-VF.woff2') format('woff2-variations'),
-         url('./../fonts/webfont-lab-djr/LabDJR_Web/LabDJR-VF.woff') format('woff-variations');
-}
+@import 'font-variations/lab-djr.css';
+@import 'font-variations/roboto-flex.css';
 
-@font-face {
-    font-family: 'Roboto Flex Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Roboto Flex Regular'), 
-         url('./../fonts/webfont-roboto/RobotoFlex[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght].ttf') format('truetype'),
-         url('./../fonts/webfont-roboto/RobotoFlex[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght].woff') format('woff-variations');
-}
-
-
-.lab-djr-font {
-    font-family: 'LabDJR-VF', sans-serif;
-}
-
-.lab-djr-regular-regular {
-    font-variation-settings: "BEVL" 0, "OVAL" 0, "QUAD" 0, "SIZE" 0;
-}
-
-.lab-djr-regular-pixel {
-    font-variation-settings: "BEVL" 200, "OVAL" 0, "QUAD" 0, "SIZE" 200;
-}
-
-.lab-djr-regular-floret {
-    font-variation-settings: "BEVL" 0, "OVAL" 1000, "QUAD" 500, "SIZE" 250;
-}
-
-.lab-djr-regular-fancy {
-    font-variation-settings: "BEVL" 1000, "OVAL" 1000, "QUAD" 1000, "SIZE" 200;
-}
-
-.lab-djr-regular-dot {
-    font-variation-settings: "BEVL" 0, "OVAL" 1000, "QUAD" 1000, "SIZE" 500;
-}
-
-.lab-djr-regular-ghost {
-    font-variation-settings: "BEVL" 1000, "OVAL" 0, "QUAD" 1000, "SIZE" 1000;
-}
-
-.animate-lab-djr {
-    animation-name: lab-djr;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    font-variation-settings: "BEVL" 397.75, "OVAL" 175.91, "QUAD" 321.49, "SIZE" 37.26;
-    -webkit-font-variation-settings: "BEVL" 397.75, "OVAL" 175.91, "QUAD" 321.49, "SIZE" 37.26;
-}
-
-@keyframes lab-djr {
-    0% {
-        font-variation-settings: "BEVL" 397.75, "OVAL" 175.91, "QUAD" 321.49, "SIZE" 37.26;
-        -webkit-font-variation-settings: "BEVL" 397.75, "OVAL" 175.91, "QUAD" 321.49, "SIZE" 37.26;
-    }
-    25% {
-        font-variation-settings: "BEVL" 550.26, "OVAL" 456.67, "QUAD" 404.68, "SIZE" 111.79;
-        -webkit-font-variation-settings: "BEVL" 550.26, "OVAL" 456.67, "QUAD" 404.68, "SIZE" 111.79;
-    }
-    50% {
-        font-variation-settings: "BEVL" 676.78, "OVAL" 583.19, "QUAD" 435.88, "SIZE" 201.91;
-        -webkit-font-variation-settings: "BEVL" 676.78, "OVAL" 583.19, "QUAD" 435.88, "SIZE" 201.91;
-    }
-    75% {
-        font-variation-settings: "BEVL" 777.3, "OVAL" 661.18, "QUAD" 688.91, "SIZE" 375.22;
-        -webkit-font-variation-settings: "BEVL" 777.3, "OVAL" 661.18, "QUAD" 688.91, "SIZE" 375.22;
-    }
-    100% {
-        font-variation-settings: "BEVL" 945.41, "OVAL" 803.29, "QUAD" 886.48, "SIZE" 307.63;
-        -webkit-font-variation-settings: "BEVL" 945.41, "OVAL" 803.29, "QUAD" 886.48, "SIZE" 307.63;
-    }
-}
 
 
 .dotted {
@@ -96,6 +18,7 @@ h1 {
 small {
     font-size:1rem !important;
 }
+
 
 .lf-font {
     font-family: 'Roboto Flex Regular', sans-serif;
