@@ -1,0 +1,11 @@
+.bgimage {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimage--crowd-bg {
+    background-image: url('./../../imgs/pexels-lt-chan-2833373.jpg');
+    background-color: #00000030;
+background-blend-mode: soft-light;
+}

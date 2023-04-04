@@ -66,6 +66,18 @@ function ObservePeople() {
 
 
 
+function PopulatePopDistribution() {
+    console.log('populate distribution')
+    $('.pop-distribution').html();
+    let totalCells = 36
+    let html = ""
+    for(let i = 0; totalCells > i; ++i) {
+        html += `<div class="pop-cell pop-cell-${i + 1}"></div>`
+    }
+    $('.pop-distribution').html(html)
+}
+
+
 
 
 $(document).ready(function () {
@@ -82,5 +94,7 @@ $(document).ready(function () {
             // ObservePeople();
         }
     );
+
+    // PopulatePopDistribution()
 
 });

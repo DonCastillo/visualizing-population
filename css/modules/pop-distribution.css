@@ -1,0 +1,190 @@
+.pop-distribution {
+	/* background-color: pink; */
+	height: 700px;
+	width: 700px;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	/* gap: 0px 0px; */
+	grid-template-areas:
+		"asia asia asia asiax africa africa"
+		"asia asia asia asiax africa africa"
+		"asia asia asia asiax africa africa"
+		"asia asia asia europe europe europe"
+		"asia asia asia na na na"
+		"asia asia asia sa sa oceania";
+}
+
+.pop-distribution .content {
+	padding: 10px;
+	color: #f5f5f5;
+}
+.AsiaX {
+	/* background-color:  #d98880; */
+	grid-area: asiax;
+	color: white;
+	border-right: 4px solid var(--main-text-color);
+	border-top: 4px solid var(--main-text-color);
+	border-bottom: 4px solid var(--main-text-color);
+	background-image: url("./../../imgs/pexels-jonas-f-6754429.jpg");
+	/* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right; */
+}
+
+.Asia {
+	/* background-color:   #d98880 ; */
+	grid-area: asia;
+	color: var(--main-text-color);
+	position: relative;
+	border-left: 4px solid var(--main-text-color);
+	border-top: 4px solid var(--main-text-color);
+	border-bottom: 4px solid var(--main-text-color);
+	background-image: url("./../../imgs/pexels-jonas-f-6754429.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: soft-light;
+	background-color: #00000082;
+}
+
+.Asia .content {
+	transform: rotate(-90deg);
+	position: absolute;
+	bottom: 146px;
+	right: -201px;
+}
+
+.Asia .continent {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 17rem;
+}
+.Asia .pop {
+	font-family: "Roboto", sans-serif;
+	transform: translateY(-46px);
+	font-weight: lighter;
+	font-size: 4rem;
+	text-align: right;
+}
+
+.Africa {
+	/* background-color: green; */
+	grid-area: africa;
+	border-top: 4px solid var(--main-text-color);
+	border-right: 4px solid var(--main-text-color);
+	border-bottom: 4px solid var(--main-text-color);
+	background-image: url("./../../imgs/pexels-taryn-elliott-4652131.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: soft-light;
+	background-color: #00000030;
+}
+.Africa .continent {
+	font-family: "Sora", sans-serif;
+	font-weight: 400;
+	font-size: 6rem;
+	text-align: right;
+}
+.Africa .pop {
+	font-family: "Sora", sans-serif;
+	font-weight: 300;
+	font-size: 3rem;
+	text-align: right;
+}
+
+.Europe {
+	grid-area: europe;
+	border-left: 4px solid var(--main-text-color);
+	border-right: 4px solid var(--main-text-color);
+    background-image: url("./../../imgs/pexels-pixabay-326709.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: soft-light;
+	background-color: #00000030;
+    background-position: center center;
+}
+.Europe .continent {
+	font-family: "Playfair Display", serif;
+	font-weight: 800;
+	font-size: 4rem;
+	text-align: left;
+}
+.Europe .pop {
+	font-family: "Playfair Display", serif;
+	font-weight: 800;
+	font-size: 2rem;
+	text-align: left;
+}
+
+.NA {
+	/* background-color: orange; */
+	grid-area: na;
+	display: flex;
+	align-items: center;
+	text-align: left;
+	border-top: 4px solid var(--main-text-color);
+	border-right: 4px solid var(--main-text-color);
+	border-left: 4px solid var(--main-text-color);
+    background-image: url("./../../imgs/pexels-vlad-alexandru-popa-1486222.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: soft-light;
+	background-color: #00000030;
+    background-position: bottom center;
+}
+.NA .continent {
+	font-family: "Oswald", sans-serif;
+	font-size: 3rem;
+}
+.NA .pop {
+	font-family: "Oswald", sans-serif;
+	font-size: 1.5rem;
+}
+
+.SA {
+	grid-area: sa;
+	border-top: 4px solid var(--main-text-color);
+	border-right: 4px solid var(--main-text-color);
+	border-left: 4px solid var(--main-text-color);
+	border-bottom: 4px solid var(--main-text-color);
+    background-image: url("./../../imgs/pexels-geancarlo-peruzzolo-14286740.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: soft-light;
+    background-color: #0000007a;
+    background-position: center center;
+}
+.SA .continent {
+	font-family: "Nunito", sans-serif;
+	font-weight: 700;
+	font-size: 2rem;
+}
+.SA .pop {
+	font-family: "Nunito", sans-serif;
+	font-weight: 400;
+	font-size: 1.4rem;
+}
+.Oceania {
+	grid-area: oceania;
+	border-top: 4px solid var(--main-text-color);
+	border-right: 4px solid var(--main-text-color);
+	border-bottom: 4px solid var(--main-text-color);
+    background-image: url("./../../imgs/pexels-brett-stone-2845013.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: soft-light;
+    background-color: #0000004a;
+    background-position: center center;
+}
+.Oceania .continent {
+	font-family: "Fira Sans", sans-serif;
+	font-size: 2.3rem;
+	line-height: 2rem;
+	font-weight: 500;
+}
+.Oceania .pop {
+	font-family: "Fira Sans", sans-serif;
+	font-size: 1.7rem;
+	font-weight: 300;
+}

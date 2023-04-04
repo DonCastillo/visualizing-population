@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@300;500&family=Nunito&family=Oswald:wght@200;500&family=Playfair+Display:wght@400;800&family=Roboto:wght@900&family=Sora:wght@300;400&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/main.css">
     <title>Visualizing the 8 billion population</title>
 </head>
 <body>
 
-    <header class="section flex-center-center display-hide">
+    <header class="section flex-center-center color-white bgimage bgimage--crowd-bg display-hides">
         <div class="container-sm">
             <div class="row flex-center-center ">
                 <div class="globe-container">
@@ -43,7 +45,7 @@
     </header>
 
     <main>
-        <div class="section display-hide">
+        <div class="section display-hides">
             <div class="container-lg">
                 <div class="row" id="timeline">
                 </div>
@@ -51,11 +53,50 @@
         </div>
 
         <!-- Population deistribution -->
-        <div class="section">
+        <div class="section flex-center-center">
             <div class="container-lg">
-                <div class="row" id="pop-distribution">
+                <div class="row flex-center-center">
                     <div class="pop-distribution">
-                        
+                        <div class="Asia">
+                            <div class="content">
+                                <div class="continent">ASIA</div>
+                                <div class="pop">4.7 B</div>
+                            </div>
+                        </div>
+                        <div class="AsiaX"></div>
+                        <div class="Europe">
+                            <div class="content">
+                                <div class="continent">EUROPE</div>
+                                <div class="pop">750 M</div>
+                            </div>
+                        </div>
+                        <div class="Africa">
+                            <div class="content">
+                                <div class="continent">AFR<br>ICA</div>
+                                <div class="pop">1.4 B</div>
+                            </div>
+                        </div>
+                        <div class="NA">
+                            <div class="content">
+                                <div class="continent"><span>NORTH</span>  <span>AMERICA</span></div>
+                                <div class="pop">602 M</div>
+                            </div>
+                        </div>
+                        <div class="SA">
+                            <div class="content">
+                                <div class="continent"><span>SOUTH</span>  <span>AMERICA</span></div>
+                                <div class="pop">439 M</div>
+                            </div>
+                        </div>
+                        <div class="Oceania">
+                            <div class="content">
+                                <div class="continent">
+                                    <div>OCEA</div>
+                                    <div>NIA</div>
+                                </div>
+                                <div class="pop">44 M</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
