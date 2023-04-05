@@ -1,0 +1,51 @@
+.pop-growth {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.pop-growth .section__title {
+	transform: rotate(-15deg);
+}
+.pop-growth__graph {
+	min-height: 300px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.pop-growth__bar {
+	padding: 10px;
+	width: 100%;
+	border-bottom: 20px solid var(--main-text-color);
+	font-size: 1.5rem;
+}
+
+.pop-growth__bar--1 {
+	transform: rotate(-15deg) translateY(-25px);
+}
+
+.pop-growth__bar--2 {
+	transform: rotate(-5deg);
+}
+.pop-growth__stat {
+	text-align: right;
+}
+.animate-slide-up {
+	animation-name: text-slide-up;
+	animation-duration: 3s;
+	animation-timing-function: ease-in;
+}
+@keyframes text-slide-up {
+	from {
+		width: 0%;
+		opacity: 0;
+		height: 0%;
+		font-size: 0rem;
+	}
+	to {
+		width: 100%;
+		opacity: 1;
+		height: 100%;
+		font-size: 1.5rem;
+	}
+}

@@ -77,6 +77,25 @@ function PopulatePopDistribution() {
     $('.pop-distribution').html(html)
 }
 
+function ObservePopGrowth() {
+    const popGrowthBar1 = $('.pop-growth__bar--1')[0]
+    const popGrowthBar2 = $('.pop-growth__bar--2')[0]
+
+    const observer = new IntersectionObserver(entry => {
+        if(entry[0].isIntersecting) {
+            $(entry[0].target).find('.pop-growth__stat').addClass('animate-slide-up')
+        } else {
+            $('.pop-growth__stat').removeClass('animate-slide-up')
+        }
+    });
+
+
+    console.log(popGrowthBar1)
+    observer.observe(popGrowthBar1)
+    observer.observe(popGrowthBar2)
+}
+
+
 
 
 
@@ -96,5 +115,7 @@ $(document).ready(function () {
     );
 
     // PopulatePopDistribution()
+    ObservePopGrowth();
+
 
 });

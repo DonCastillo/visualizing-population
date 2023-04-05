@@ -15,7 +15,7 @@
 </head>
 <body>
 
-    <header class="section flex-center-center color-white bgimage bgimage--crowd-bg display-hides">
+    <header class="section flex-center-center color-white bgimage bgimage--crowd-bg display-hide">
         <div class="container-sm">
             <div class="row flex-center-center ">
                 <div class="globe-container">
@@ -47,7 +47,7 @@
     <main>
 
         <!-- Population timeline -->
-        <div class="section display-hides">
+        <div class="section display-hide">
             <div class="container-lg">
                 <div class="row">
                     <h2 class="section__title roboto-font roboto-font-regular">
@@ -64,7 +64,7 @@
         </div>
 
         <!-- Population deistribution -->
-        <div class="section display-hides">
+        <div class="section display-hide">
             <div class="container-lg">
                 <div class="row">
                     <h2 class="section__title text-center roboto-font roboto-font-regular">
@@ -124,21 +124,34 @@
         </div>
 
         <!-- Population growth -->
-        <div class="section">
+        <div class="section pop-growth">
+
             <div class="container-lg">
                 <div class="row">
                     <h2 class="section__title roboto-font roboto-font-regular">
                         <div class="ft-size-sm">Population is 
                             <span class="ft-size-lg">
-                                <span class="roboto-tallest">sl</span><span class="roboto-taller">ow</span><span class="roboto-tall">in</span><span class="roboto-short">g d</span><span class="roboto-shorter">ow</span><span class="roboto-shortest">n.</span>
+                            <span class="roboto-tallest">sl</span><span class="roboto-taller">ow</span><span class="roboto-tall">in</span><span class="roboto-short">g d</span><span class="roboto-shorter">ow</span><span class="roboto-shortest">n.</span>
                             </span>
                         </div>
                         <div class="ft-size-sm">Annual 
                             <span class="roboto-font-emphasize">population growth</span> 
                             <span class="roboto-flex-regular-extralight">declined</span>
                         </div>
-                    </h2>
-                    
+                    </h2> 
+                </div>
+            </div>
+
+            <div class="container-lg">
+                <div class="row">
+                    <div class="pop-growth__graph">
+                        <div class="pop-growth__bar pop-growth__bar--1">
+                            <div class="pop-growth__stat animate-slide-up">from 2.3% in 1963</div>
+                        </div>
+                        <div class="pop-growth__bar pop-growth__bar--2">
+                            <div class="pop-growth__stat animate-slide-up">to 0.8% in 2022</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
