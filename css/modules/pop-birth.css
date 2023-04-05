@@ -1,0 +1,92 @@
+.pop-birth {
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center; */
+	/* background-color: antiquewhite; */
+	/* max-width:500px; */
+	min-height: 500px;
+	display: flex;
+	justify-content: center;
+}
+
+.pop-birth > .panel {
+	width: 50%;
+}
+
+.pop-birth .section__title {
+	padding: 0;
+}
+
+.pop-birth .panel:nth-of-type(1) .lead {
+	font-size: 4rem;
+}
+
+.pop-birth .panel:nth-of-type(2) .lead {
+	font-size: 2rem;
+	margin-bottom: 25px;
+}
+
+.pop-birth .section__title .factors {
+	position: relative;
+	padding: 8px 0px;
+}
+.pop-birth .panel {
+	padding: 0 10px;
+}
+.pop-birth .panel:nth-of-type(1) {
+	padding-right: 90px;
+}
+.pop-birth .panel:nth-of-type(2) {
+	/* padding-left: 40px; */
+	border-left: 10px solid var(--main-text-color);
+}
+.pop-birth .round-icon {
+	display: inline-flex;
+	justify-content: center;
+	align-content: center;
+	padding: 8px;
+	border-radius: 100%;
+	position: absolute;
+	top: -6px;
+	margin-left: 6px;
+	border: 3px solid var(--main-text-color);
+}
+
+.pop-birth .round-icon i {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 30px;
+	font-size: 1.5rem;
+}
+
+.pop-birth .round-icon--red {
+	background-color: #d98880;
+	color: whitesmoke;
+}
+
+.pop-birth .round-icon--green {
+	background-color: #7dcea0;
+	color: whitesmoke;
+}
+
+.pop-birth .round-icon--blue {
+	background-color: #5dade2;
+	color: whitesmoke;
+}
+
+.pop-birth .round-icon--purple {
+	background-color: #d7bde2;
+	color: whitesmoke;
+}
+.pop-birth .stat-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pop-birth .stat-box .stat {
+	font-size: 7rem;
+	margin-right:30px;
+}
