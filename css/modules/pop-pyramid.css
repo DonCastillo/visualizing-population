@@ -1,0 +1,137 @@
+.pop-pyramid {
+	font-size: 1.5rem;
+	border-bottom: 4px solid var(--main-text-color);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.pyr {
+	padding: 10px 0;
+	text-align: center;
+	border: 4px solid var(--main-text-color);
+	min-height: 50px;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+}
+
+.pyr-1 {
+	width: 10%;
+	animation-name: pyr-1;
+}
+.pyr-2 {
+	width: 14%;
+	animation-name: pyr-2;
+}
+.pyr-3 {
+	width: 15%;
+	animation-name: pyr-3;
+}
+.pyr-4 {
+	width: 20%;
+	animation-name: pyr-4;
+}
+.pyr-5 {
+	width: 22%;
+	animation-name: pyr-5;
+}
+.pyr-6 {
+	width: 26%;
+	animation-name: pyr-6;
+}
+.pyr-7 {
+	width: 35%;
+	animation-name: pyr-7;
+}
+.pyr-8 {
+	width: 40%;
+	animation-name: pyr-8;
+}
+.pyr-9 {
+	width: 50%;
+	animation-name: pyr-9;
+}
+.pyr-10 {
+	width: 65%;
+	animation-name: pyr-10;
+}
+.pyr-11 {
+	width: 70%;
+	animation-name: pyr-11;
+}
+.pyr-12 {
+	width: 75%;
+	animation-name: pyr-12;
+}
+.pyr-13 {
+	width: 80%;
+	animation-name: pyr-13;
+}
+
+@keyframes pyr-1 {
+	to {
+		width: 20%;
+	}
+}
+@keyframes pyr-2 {
+	to {
+		width: 25%;
+	}
+}
+@keyframes pyr-3 {
+	to {
+		width: 25%;
+	}
+}
+@keyframes pyr-4 {
+	to {
+		width: 30%;
+	}
+}
+@keyframes pyr-5 {
+	to {
+		width: 33%;
+	}
+}
+@keyframes pyr-6 {
+	to {
+		width: 28%;
+	}
+}
+@keyframes pyr-7 {
+	to {
+		width: 30%;
+	}
+}
+@keyframes pyr-8 {
+	to {
+		width: 45%;
+	}
+}
+@keyframes pyr-9 {
+	to {
+		width: 52%;
+	}
+}
+@keyframes pyr-10 {
+	to {
+		width: 63%;
+	}
+}
+@keyframes pyr-11 {
+	to {
+		width: 68%;
+	}
+}
+@keyframes pyr-12 {
+	to {
+		width: 70%;
+	}
+}
+@keyframes pyr-13 {
+	to {
+		width: 75%;
+	}
+}
+

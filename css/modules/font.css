@@ -24,18 +24,18 @@ small, .small {
     background-color:var(--highlight-text-color);
 }
 .ft-size-xs {
-    font-size:1.5rem;
+    font-size:1.5rem !important;
     line-height:2rem;
 }
 .ft-size-sm {
-    font-size:2rem;
+    font-size:2rem !important;
     line-height:2rem;
 }
 .ft-size-md {
-    font-size:3rem;
+    font-size:3rem !important;
     line-height:3rem;
 }
 .ft-size-lg {
-    font-size:3.5rem;
+    font-size:3.5rem !important;
     line-height:3.5rem;
 }
