@@ -15,6 +15,22 @@
 	animation-duration: 2s;
 	animation-timing-function: ease;
 }
+@media only screen and (max-width: 576px) {
+	.pop-pyramid {
+		font-size: 0.8rem;
+	}
+}
+@media only screen and (max-width:768px) {
+	.pop-pyramid {
+		font-size: 1rem;
+		border-bottom: 2px solid var(--main-text-color);
+	}
+	.pyr {
+		border: 2px solid var(--main-text-color);
+		min-height: 30px;
+		padding: 3px 0;
+	}
+}
 
 .pyr-1 {
 	width: 10%;

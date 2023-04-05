@@ -8,6 +8,10 @@
     font-size:2.5rem;
 }
 
+.section__title--sm {
+	padding: 60px 0 40px 0;
+}
+
 .section__two-column {
     min-height: 500px;
     display: flex;
