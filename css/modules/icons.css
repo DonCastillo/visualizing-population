@@ -6,3 +6,13 @@
 .globe-focal > .fa-globe {
     font-size: 100px;
 }
+
+@media only screen and (max-width: 576px) {
+    .globe-focal > .fa-globe {
+        font-size: 81px;
+      }
+      .globe-item > .fa-person {
+        font-size: 35px;
+    }
+    
+}

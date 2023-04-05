@@ -1,41 +1,69 @@
-@import 'font-variations/lab-djr.css';
-@import 'font-variations/roboto-flex.css';
-
-
+@import "font-variations/lab-djr.css";
+@import "font-variations/roboto-flex.css";
 
 .dotted {
-    font-family: 'LabDJR-VF';
-    font-weight: 700;
-    font-size:6rem;
+	font-family: "LabDJR-VF";
+	font-weight: 700;
+	font-size: 6rem;
 }
 .anton-font {
-    font-family: 'Anton', 'Arial', sans-serif;
+	font-family: "Anton", "Arial", sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
-    margin:0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
 }
 h1 {
-    font-size:3rem;
+	font-size: 3rem;
 }
-small, .small {
-    font-size:1rem !important;
+small,
+.small {
+	font-size: 1rem !important;
 }
 .mark {
-    background-color:var(--highlight-text-color);
+	background-color: var(--highlight-text-color);
 }
 .ft-size-xs {
-    font-size:1.5rem !important;
-    line-height:2rem;
+	font-size: 1.5rem !important;
+	line-height: 2rem;
 }
 .ft-size-sm {
-    font-size:2rem !important;
-    line-height:2rem;
+	font-size: 2rem !important;
+	line-height: 2rem;
 }
 .ft-size-md {
-    font-size:3rem !important;
-    line-height:3rem;
+	font-size: 3rem !important;
+	line-height: 3rem;
 }
 .ft-size-lg {
-    font-size:3.5rem !important;
-    line-height:3.5rem;
+	font-size: 3.5rem !important;
+	line-height: 3.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+	.ft-size-sm {
+		font-size: 1.5rem !important;
+		line-height: 1.5rem;
+	}
+	.ft-size-xs {
+		font-size: 1.2rem !important;
+		line-height: 1.4rem;
+	}
+	.dotted {
+		font-size: 4rem;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	h1 {
+		font-size: 2rem;
+	}
+    .dotted {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
 }

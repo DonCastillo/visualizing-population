@@ -11,7 +11,6 @@
 	padding: 8px 0px;
 }
 
-
 .pop-birth .round-icon {
 	display: inline-flex;
 	justify-content: center;
@@ -51,4 +50,21 @@
 .pop-birth .round-icon--purple {
 	background-color: #d7bde2;
 	color: whitesmoke;
+}
+
+@media only screen and (max-width: 768px) {
+	.pop-birth .panel:nth-of-type(1) .lead {
+		font-size: 2rem;
+	}
+	.pop-birth .section__title .factors {
+		font-size: 1.4rem;
+	}
+	.pop-birth .round-icon i {
+		height: 15px;
+		width: 15px;
+		font-size: 1.2rem;
+	}
+	.pop-birth .round-icon {
+		top:3px;
+	}
 }

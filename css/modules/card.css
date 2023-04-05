@@ -36,6 +36,7 @@
 	background-color: #7dcea0;
 	margin: 10px 0;
 	overflow: hidden;
+    min-width: min-content;
 }
 
 .stat-box {
@@ -101,6 +102,12 @@
 	}
 }
 @media only screen and (max-width: 768px) {
+	.timeline-card {
+		margin-bottom: 0px;
+	}
+	.timeline-card__heading {
+		font-size: 3rem;
+	}
 	.timeline-card__header {
 		display: block;
 	}
@@ -123,5 +130,8 @@
 		padding-left: 10px;
 		font-size: 1.5rem;
 		line-height: 1.5rem;
+	}
+	.stat-box .stat {
+		font-size: 5rem;
 	}
 }

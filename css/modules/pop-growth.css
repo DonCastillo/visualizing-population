@@ -49,3 +49,10 @@
 		font-size: 1.5rem;
 	}
 }
+
+@media only screen and (max-width: 768px) {
+	.pop-growth__bar {
+		font-size: 1.3rem;
+		border-bottom: 5px solid var(--main-text-color);
+	}
+}

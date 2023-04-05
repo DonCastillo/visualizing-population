@@ -1,12 +1,15 @@
 .pop-longevity {
-	/* background-color: pink; */
 }
 
-.pop-longevity .roboto-font-elongate{
-	font-variation-settings: "opsz" 41.78, "wght" 1000, "GRAD" -144.08, "wdth" 151, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 603, "YTUC" 712, "YTLC" 483.77, "YTAS" 750, "YTDE" -203, "YTFI" 738;
-    -webkit-font-variation-settings: "opsz" 41.78, "wght" 1000, "GRAD" -144.08, "wdth" 151, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 603, "YTUC" 712, "YTLC" 483.77, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+.pop-longevity .roboto-font-elongate {
+	font-variation-settings: "opsz" 41.78, "wght" 1000, "GRAD" -144.08,
+		"wdth" 151, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 603, "YTUC" 712,
+		"YTLC" 483.77, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+	-webkit-font-variation-settings: "opsz" 41.78, "wght" 1000, "GRAD" -144.08,
+		"wdth" 151, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 603, "YTUC" 712,
+		"YTLC" 483.77, "YTAS" 750, "YTDE" -203, "YTFI" 738;
 	font-size: 4rem;
-	letter-spacing:1.7rem;
+	letter-spacing: 1.7rem;
 	word-wrap: anywhere;
 }
 
@@ -19,5 +22,15 @@
 	max-width: 175px;
 }
 .pop-longevity .count i {
-	font-size:1rem;
+	font-size: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+	.pop-longevity .panel:nth-of-type(1) .lead {
+		font-size: 3rem;
+	}
+	.pop-longevity .roboto-font-elongate {
+		letter-spacing: 0rem;
+		font-size: 3rem;
+	}
 }
