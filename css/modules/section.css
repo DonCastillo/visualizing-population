@@ -19,6 +19,12 @@
     width:50%;
 }
 
+.section__two-column .panel:nth-of-type(2) .lead {
+    margin-bottom:25px;
+    font-size: 2rem;
+}
+
+
 .section__two-column .panel:nth-of-type(2) {
     border-left: 10px solid var(--main-text-color);
 }

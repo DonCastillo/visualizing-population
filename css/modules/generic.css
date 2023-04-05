@@ -33,6 +33,11 @@
 }
 
 .headline span {
-	padding: 0 10px;
-	background: var(--backdrop-color);
+    padding: 3px 18px;
+    background: var(--main-text-color);
+    color: var(--backdrop-color);
+    font-size: 1rem;
+}
+.w-100 {
+    width:100%;
 }

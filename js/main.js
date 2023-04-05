@@ -96,6 +96,15 @@ function ObservePopGrowth() {
 }
 
 
+function DrawHearts(count, target) {
+    target.html()
+    let html = ""
+    for(let i = 0; count > i; ++i) {
+        html += `<i class="fa-solid fa-heart-pulse"></i>`
+    }
+    target.html(html)
+}
+
 
 
 
@@ -116,6 +125,8 @@ $(document).ready(function () {
 
     // PopulatePopDistribution()
     ObservePopGrowth();
+    DrawHearts(47, $('#heart-count-1'))
+    DrawHearts(73, $('#heart-count-2'))
 
 
 });
