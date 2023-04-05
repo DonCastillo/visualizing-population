@@ -15,9 +15,6 @@
 @import 'modules/pop-longevity.css';
 @import 'modules/pop-pyramid.css';
 
-/* backpacker
-@import 'webfont-backpacker/BPdots.css';
-@import 'webfont-backpacker/BPdotsBold.css'; */
 
 :root {
     --backdrop-color: whitesmoke;

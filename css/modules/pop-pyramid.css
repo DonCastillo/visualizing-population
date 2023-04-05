@@ -12,15 +12,14 @@
 	text-align: center;
 	border: 4px solid var(--main-text-color);
 	min-height: 50px;
-	animation-duration: 2s;
-	animation-timing-function: ease;
+
 }
 @media only screen and (max-width: 576px) {
 	.pop-pyramid {
 		font-size: 0.8rem;
 	}
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
 	.pop-pyramid {
 		font-size: 1rem;
 		border-bottom: 2px solid var(--main-text-color);
@@ -31,123 +30,194 @@
 		padding: 3px 0;
 	}
 }
-
-.pyr-1 {
-	width: 10%;
+.animate-pyr {
+	animation-duration: 4s;
+	animation-timing-function: ease;
+	animation-direction:alternate;
+}
+.animate-pyr-1 {
 	animation-name: pyr-1;
 }
-.pyr-2 {
-	width: 14%;
+.animate-pyr-2 {
 	animation-name: pyr-2;
 }
-.pyr-3 {
-	width: 15%;
+.animate-pyr-3 {
 	animation-name: pyr-3;
 }
-.pyr-4 {
-	width: 20%;
+.animate-pyr-4 {
 	animation-name: pyr-4;
 }
-.pyr-5 {
-	width: 22%;
+.animate-pyr-5 {
 	animation-name: pyr-5;
 }
-.pyr-6 {
-	width: 26%;
+.animate-pyr-6 {
 	animation-name: pyr-6;
 }
-.pyr-7 {
-	width: 35%;
+.animate-pyr-7 {
 	animation-name: pyr-7;
 }
-.pyr-8 {
-	width: 40%;
+.animate-pyr-8 {
 	animation-name: pyr-8;
 }
-.pyr-9 {
-	width: 50%;
+.animate-pyr-9 {
 	animation-name: pyr-9;
 }
-.pyr-10 {
-	width: 65%;
+.animate-pyr-10 {
 	animation-name: pyr-10;
 }
-.pyr-11 {
-	width: 70%;
+.animate-pyr-11 {
 	animation-name: pyr-11;
 }
-.pyr-12 {
-	width: 75%;
+.animate-pyr-12 {
 	animation-name: pyr-12;
 }
-.pyr-13 {
-	width: 80%;
+.animate-pyr-13 {
 	animation-name: pyr-13;
 }
 
+
+.pyr-1 {
+	width: 10%;
+}
+.pyr-2 {
+	width: 14%;
+}
+.pyr-3 {
+	width: 15%;
+}
+.pyr-4 {
+	width: 20%;
+}
+.pyr-5 {
+	width: 22%;
+}
+.pyr-6 {
+	width: 26%;
+}
+.pyr-7 {
+	width: 35%;
+}
+.pyr-8 {
+	width:40%;
+}
+.pyr-9 {
+	width: 50%;
+}
+.pyr-10 {
+	width: 65%;
+}
+.pyr-11 {
+	width: 70%;
+}
+.pyr-12 {
+	width: 75%;
+}
+.pyr-13 {
+	width: 80%;
+}
+
+
 @keyframes pyr-1 {
+	from {
+		width: 10%;
+	}
 	to {
 		width: 20%;
 	}
 }
 @keyframes pyr-2 {
+	from {
+		width: 14%;
+	}
 	to {
 		width: 25%;
 	}
 }
 @keyframes pyr-3 {
+	from {
+		width: 15%;
+	}
 	to {
 		width: 25%;
 	}
 }
 @keyframes pyr-4 {
+	from {
+		width: 20%;
+	}
 	to {
 		width: 30%;
 	}
 }
 @keyframes pyr-5 {
+	from {
+		width: 22%;
+	}
 	to {
 		width: 33%;
 	}
 }
 @keyframes pyr-6 {
+	from {
+		width: 26%;
+	}
 	to {
 		width: 28%;
 	}
 }
 @keyframes pyr-7 {
+	from {
+		width: 35%;
+	}
 	to {
 		width: 30%;
 	}
 }
 @keyframes pyr-8 {
+	from {
+		width:40%;
+	}
 	to {
 		width: 45%;
 	}
 }
 @keyframes pyr-9 {
+	from {
+		width: 50%;
+	}
 	to {
 		width: 52%;
 	}
 }
 @keyframes pyr-10 {
+	from {
+		width: 65%;
+	}
 	to {
 		width: 63%;
 	}
 }
 @keyframes pyr-11 {
+	from {
+		width: 70%;
+	}
 	to {
 		width: 68%;
 	}
 }
 @keyframes pyr-12 {
+	from {
+		width: 75%;
+	}
 	to {
 		width: 70%;
 	}
 }
 @keyframes pyr-13 {
+	from {
+		width: 80%;
+	}
 	to {
 		width: 75%;
 	}
 }
-

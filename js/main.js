@@ -45,37 +45,8 @@ function ObserveBarYear() {
 }
 
 
-function ObservePeople() {
-    const bar = $('.timeline-card__time')
-    const observer = new IntersectionObserver(entry => {
-
-        const count = $('.timeline-card__count')
-        if(entry[0].isIntersecting) {
-
-            // $(entry[0].target).addClass('animation-elongate')
-            $(entry[0].target).parent().parent().find('.timeline-card__count').addClass('animation-people-up')
-        } else {
-            count.removeClass('animation-people-up')
-        }
-    });
-
-    $(bar).each(function (index, element) {
-        observer.observe(element)               
-    });
-}
 
 
-
-function PopulatePopDistribution() {
-    console.log('populate distribution')
-    $('.pop-distribution').html();
-    let totalCells = 36
-    let html = ""
-    for(let i = 0; totalCells > i; ++i) {
-        html += `<div class="pop-cell pop-cell-${i + 1}"></div>`
-    }
-    $('.pop-distribution').html(html)
-}
 
 function ObservePopGrowth() {
     const popGrowthBar1 = $('.pop-growth__bar--1')[0]
@@ -89,10 +60,37 @@ function ObservePopGrowth() {
         }
     });
 
-
-    console.log(popGrowthBar1)
     observer.observe(popGrowthBar1)
     observer.observe(popGrowthBar2)
+}
+
+
+function ObservePyramid() {
+    const pyramidStep = $('.pop-pyramid .animate-pyr')
+    console.log(pyramidStep)
+
+    const observer = new IntersectionObserver(entry => {
+        const target = $(entry[0].target)[0]
+        const ident = parseInt(target.id)
+        
+        if(entry[0].isIntersecting) {
+            // $(entry[0].target).find('.pop-growth__stat').addClass('animate-slide-up')
+           
+
+            $(entry[0].target).addClass(`animate-pyr-${ident}`)
+            // $(entry[0].target).addClass(`animate-pyr-${ident}`)
+            // $(entry[0].target).removeClass(`animate-pyr`)
+
+            console.log(ident)
+        } else {
+            // $('.pop-growth__stat').removeClass('animate-slide-up')
+            pyramidStep.$(entry[0].target).removeClass(`animate-pyr-${ident}`)
+        }
+    });
+
+    $(pyramidStep).each(function (index, element) {
+        observer.observe(element)  
+    });
 }
 
 
@@ -119,14 +117,13 @@ $(document).ready(function () {
             }
 
             ObserveBarYear();
-            // ObservePeople();
         }
     );
 
-    // PopulatePopDistribution()
     ObservePopGrowth();
     DrawHearts(47, $('#heart-count-1'))
     DrawHearts(73, $('#heart-count-2'))
+    ObservePyramid();
 
 
 });
