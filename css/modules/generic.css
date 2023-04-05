@@ -1,38 +1,38 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .flex-center-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .text-center {
-    text-align:center;
+	text-align: center;
 }
 
 .text-right {
-    text-align: right;
+	text-align: right;
 }
 
 .display-hide {
-    display:none !important;
+	display: none !important;
 }
 
 .section {
-    /* background-color: yellowgreen; */
+	/* background-color: yellowgreen; */
 }
 
 .headline {
-    width:100%;
-    text-align: center;
-    border-bottom:1px solid var(--main-text-color);
-    line-height:0.1em;
-    margin:10px 0 20px;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid var(--main-text-color);
+	line-height: 0.1em;
+	margin: 10px 0 20px;
 }
 
 .headline span {
-    padding:0 10px;
-    background:var(--backdrop-color);
+	padding: 0 10px;
+	background: var(--backdrop-color);
 }

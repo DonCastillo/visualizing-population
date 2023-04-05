@@ -13,8 +13,6 @@
     margin-right:15%;
     min-width:250px;
     width:20%;
-    /* background-color: orange; */
-    /* line-height: 1.5rem; */
 }
 
 .timeline-card__count {
@@ -38,6 +36,19 @@
     background-color:  #7dcea0;
     margin: 10px 0;
     overflow: hidden;
+}
+
+
+.stat-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-box .stat {
+    font-size: 7rem;
+    margin-right: 30px;
+    font-family: 'Anton', 'Arial', sans-serif;
 }
 
 @media only screen and (max-width:768px) {

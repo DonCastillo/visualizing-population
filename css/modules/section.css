@@ -4,8 +4,26 @@
 }
 
 .section__title {
-    /* background-color: yellowgreen; */
     padding: 60px 0 80px 0;
     font-size:2.5rem;
 }
 
+.section__two-column {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.section__two-column .panel {
+    padding:0 10px;
+    width:50%;
+}
+
+.section__two-column .panel:nth-of-type(2) {
+    border-left: 10px solid var(--main-text-color);
+}
+
+.section__two-column .section__title {
+    padding:0;
+    font-size:2.5rem;
+}
