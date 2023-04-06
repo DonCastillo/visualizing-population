@@ -1,15 +1,14 @@
 .globe-item > .fa-person {
-    transform: rotate(75deg);
-    font-size: 40px;
+	transform: rotate(75deg);
+	font-size: 40px;
 }
 
 .globe-focal > .fa-globe {
-    font-size: 100px;
+	font-size: 100px;
 }
 
 @media only screen and (max-width: 576px) {
-      .globe-item > .fa-person {
-        font-size: 35px;
-    }
-    
+	.globe-item > .fa-person {
+		font-size: 35px;
+	}
 }

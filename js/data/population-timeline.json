@@ -5,8 +5,8 @@
             "count": 10,
             "start": "Beginning of Human History",
             "end": "1803",
-            "length": 400,
-            "ratio": 100
+            "length": 300,
+            "lengthtext": "1000+"
         },
         {
             "title": "2 Billion",
@@ -14,7 +14,7 @@
             "start": "1803",
             "end": "1927",
             "length": 124,
-            "ratio": 88.6
+            "lengthtext": "124"
         },
         {
             "title": "3 Billion",
@@ -22,7 +22,7 @@
             "start": "1927",
             "end": "1960",
             "length": 33,
-            "ratio": 23.6
+            "lengthtext": "33"
         },
         {
             "title": "4 Billion",
@@ -30,7 +30,7 @@
             "start": "1960",
             "end": "1975",
             "length": 15,
-            "ratio": 10.7
+            "lengthtext": "15"
         },
         {
             "title": "5 Billion",
@@ -38,7 +38,7 @@
             "start": "1975",
             "end": "1987",
             "length": 12,
-            "ratio": 8.6
+            "lengthtext": "12"
         },
         {
             "title": "6 Billion",
@@ -46,7 +46,7 @@
             "start": "1987",
             "end": "1999",
             "length": 12,
-            "ratio": 8.6
+            "lengthtext": "12"
         },
         {
             "title": "7 Billion",
@@ -54,15 +54,15 @@
             "start": "1999",
             "end": "2011",
             "length": 12,
-            "ratio": 8.6
+            "lengthtext": "12"
         },
         {
             "title": "8 Billion",
             "count": 80,
             "start": "2011",
-            "end": "2024",
-            "length": 13,
-            "ratio": 9.3
+            "end": "2022",
+            "length": 11,
+            "lengthtext": "11"
         }
     ]
 }

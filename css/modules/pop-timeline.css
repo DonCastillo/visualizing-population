@@ -1,0 +1,5 @@
+.pop-timeline small {
+	padding: 3px 10px;
+	background-color: var(--main-text-color);
+	color: var(--backdrop-color);
+}

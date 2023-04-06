@@ -1,11 +1,9 @@
 .pop-distribution {
-	/* background-color: pink; */
 	height: 700px;
 	width: 700px;
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: repeat(6, 1fr);
-	/* gap: 0px 0px; */
 	grid-template-areas:
 		"asia asia asia asiax africa africa"
 		"asia asia asia asiax africa africa"
@@ -20,26 +18,21 @@
 	color: #f5f5f5;
 }
 .AsiaX {
-	/* background-color:  #d98880; */
 	grid-area: asiax;
 	color: white;
-	border-right: 4px solid var(--main-text-color);
-	border-top: 4px solid var(--main-text-color);
-	border-bottom: 4px solid var(--main-text-color);
+	border-right: 4px solid var(--section-two-accent-color);
+	border-top: 4px solid var(--section-two-accent-color);
+	border-bottom: 4px solid var(--section-two-accent-color);
 	background-image: url("./../../imgs/pexels-jonas-f-6754429.jpg");
-	/* background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom right; */
 }
 
 .Asia {
-	/* background-color:   #d98880 ; */
 	grid-area: asia;
-	color: var(--main-text-color);
+	color: var(--section-two-accent-color);
 	position: relative;
-	border-left: 4px solid var(--main-text-color);
-	border-top: 4px solid var(--main-text-color);
-	border-bottom: 4px solid var(--main-text-color);
+	border-left: 4px solid var(--section-two-accent-color);
+	border-top: 4px solid var(--section-two-accent-color);
+	border-bottom: 4px solid var(--section-two-accent-color);
 	background-image: url("./../../imgs/pexels-jonas-f-6754429.jpg");
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -69,11 +62,10 @@
 }
 
 .Africa {
-	/* background-color: green; */
 	grid-area: africa;
-	border-top: 4px solid var(--main-text-color);
-	border-right: 4px solid var(--main-text-color);
-	border-bottom: 4px solid var(--main-text-color);
+	border-top: 4px solid var(--section-two-accent-color);
+	border-right: 4px solid var(--section-two-accent-color);
+	border-bottom: 4px solid var(--section-two-accent-color);
 	background-image: url("./../../imgs/pexels-taryn-elliott-4652131.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -95,8 +87,8 @@
 
 .Europe {
 	grid-area: europe;
-	border-left: 4px solid var(--main-text-color);
-	border-right: 4px solid var(--main-text-color);
+	border-left: 4px solid var(--section-two-accent-color);
+	border-right: 4px solid var(--section-two-accent-color);
 	background-image: url("./../../imgs/pexels-pixabay-326709.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -123,9 +115,9 @@
 	display: flex;
 	align-items: center;
 	text-align: left;
-	border-top: 4px solid var(--main-text-color);
-	border-right: 4px solid var(--main-text-color);
-	border-left: 4px solid var(--main-text-color);
+	border-top: 4px solid var(--section-two-accent-color);
+	border-right: 4px solid var(--section-two-accent-color);
+	border-left: 4px solid var(--section-two-accent-color);
 	background-image: url("./../../imgs/pexels-vlad-alexandru-popa-1486222.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -144,10 +136,10 @@
 
 .SA {
 	grid-area: sa;
-	border-top: 4px solid var(--main-text-color);
-	border-right: 4px solid var(--main-text-color);
-	border-left: 4px solid var(--main-text-color);
-	border-bottom: 4px solid var(--main-text-color);
+	border-top: 4px solid var(--section-two-accent-color);
+	border-right: 4px solid var(--section-two-accent-color);
+	border-left: 4px solid var(--section-two-accent-color);
+	border-bottom: 4px solid var(--section-two-accent-color);
 	background-image: url("./../../imgs/pexels-geancarlo-peruzzolo-14286740.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -167,9 +159,9 @@
 }
 .Oceania {
 	grid-area: oceania;
-	border-top: 4px solid var(--main-text-color);
-	border-right: 4px solid var(--main-text-color);
-	border-bottom: 4px solid var(--main-text-color);
+	border-top: 4px solid var(--section-two-accent-color);
+	border-right: 4px solid var(--section-two-accent-color);
+	border-bottom: 4px solid var(--section-two-accent-color);
 	background-image: url("./../../imgs/pexels-brett-stone-2845013.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;

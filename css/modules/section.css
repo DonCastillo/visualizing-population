@@ -29,7 +29,7 @@
 }
 
 .section__two-column .panel:nth-of-type(2) {
-	border-left: 10px solid var(--main-text-color);
+	border-left: 10px solid var(--section-four-accent-color);
 }
 
 .section__two-column .section__title {

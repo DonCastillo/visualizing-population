@@ -16,7 +16,7 @@
 .pop-growth__bar {
 	padding: 10px;
 	width: 100%;
-	border-bottom: 20px solid var(--main-text-color);
+	border-bottom: 20px solid var(--section-three-accent-color);
 	font-size: 1.5rem;
 }
 

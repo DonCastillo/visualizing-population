@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@300;500&family=Nunito&family=Oswald:wght@200;500&family=Playfair+Display:wght@400;800&family=Roboto:wght@900&family=Sora:wght@300;400&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/aos.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>Reaching the 8 billion population</title>
 </head>
@@ -47,7 +48,7 @@
     <main>
 
         <!-- Population timeline -->
-        <div class="section display-hides">
+        <div class="section pop-timeline">
             <div class="container-lg">
                 <div class="row">
                     <h2 class="section__title roboto-font roboto-font-regular">
@@ -184,7 +185,7 @@
                         </div>
                         <div class="panel flex-center-center">
                             <h2 class="section__title roboto-font roboto-font-regular">
-                                <div class="lead text-center">Births per woman decline</div>
+                                <div class="lead text-center">Births per woman declined</div>
                                 <div>
                                     <div class="headline small"><span>from</span></div>
                                     <div class="stat-box">
@@ -357,6 +358,10 @@
 
     </main>
     <script src="./js/jquery.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="./js/main.js"></script>
 </body>
 </html>

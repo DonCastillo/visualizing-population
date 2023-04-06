@@ -1,17 +1,20 @@
 function TimelineCard(data, index, target) {
     let html = `
         <div class="timeline-card">
+
             <div class="timeline-card__header">
                 <div class="timeline-card__title">
                     <div><small>${data.start} - ${data.end}</small></div>
+                    <div class="timeline-card__length roboto-font"><strong>${data.lengthtext}</strong> yrs before it got to</div>
                     <div class="timeline-card__heading lab-djr-font lab-djr-regular-pixel">${data.title}</div>
                 </div>
                 <div class="timeline-card__count" id="person-count-${index}b"></div>
             </div>
+
             <div class="timeline-card__body">
-                <div class="timeline-card__time text-center flex-center-center" style="max-width: ${(data.length / 400) * 100}%;">${data.length}<br>years</div>
-                
+                <div class="timeline-card__time text-center flex-center-center" style="max-width: ${(data.length / 300) * 100}%;"></div>    
             </div>
+
         </div>
     `
     target.append(html)
@@ -30,12 +33,12 @@ function DrawPerson(count, target) {
 
 
 function ObserveBarYear() {
-    const bar = $('.timeline-card__time')
+    const bar = $('.timeline-card__body')
     const observer = new IntersectionObserver(entry => {
         if(entry[0].isIntersecting) {
-            $(entry[0].target).addClass('animation-elongate')
-        } else {
-            bar.removeClass('animation-elongate')
+            $(entry[0].target)
+                .find('.timeline-card__time')
+                .addClass('animation-elongate')
         }
     });
 
@@ -66,31 +69,30 @@ function ObservePopGrowth() {
 
 
 function ObservePyramid() {
-    const pyramidStep = $('.pop-pyramid .animate-pyr')
-    console.log(pyramidStep)
+    const pyramid = $('.pop-pyramid')[0]
 
     const observer = new IntersectionObserver(entry => {
-        const target = $(entry[0].target)[0]
-        const ident = parseInt(target.id)
-        
+
+        const pyramidSteps = $(entry[0].target).find('.pyr')
+
         if(entry[0].isIntersecting) {
-            // $(entry[0].target).find('.pop-growth__stat').addClass('animate-slide-up')
-           
 
-            $(entry[0].target).addClass(`animate-pyr-${ident}`)
-            // $(entry[0].target).addClass(`animate-pyr-${ident}`)
-            // $(entry[0].target).removeClass(`animate-pyr`)
+            $(pyramidSteps).each(function (index, element) {
+                const pyramidRow = $(element) 
+                const id = pyramidRow.attr('id')
+                pyramidRow.addClass(`animate-pyr-${id}`)
+            });
 
-            console.log(ident)
         } else {
-            // $('.pop-growth__stat').removeClass('animate-slide-up')
-            pyramidStep.$(entry[0].target).removeClass(`animate-pyr-${ident}`)
+
+            $(pyramidSteps).each(function (index, element) {
+                const pyramidRow = $(element) 
+                const id = pyramidRow.attr('id')
+                pyramidRow.removeClass(`animate-pyr-${id}`)
+            });
         }
     });
-
-    $(pyramidStep).each(function (index, element) {
-        observer.observe(element)  
-    });
+    observer.observe(pyramid)
 }
 
 
@@ -124,6 +126,4 @@ $(document).ready(function () {
     DrawHearts(47, $('#heart-count-1'))
     DrawHearts(73, $('#heart-count-2'))
     ObservePyramid();
-
-
 });

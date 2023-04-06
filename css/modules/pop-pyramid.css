@@ -12,7 +12,6 @@
 	text-align: center;
 	border: 4px solid var(--main-text-color);
 	min-height: 50px;
-
 }
 @media only screen and (max-width: 576px) {
 	.pop-pyramid {
@@ -33,7 +32,8 @@
 .animate-pyr {
 	animation-duration: 4s;
 	animation-timing-function: ease;
-	animation-direction:alternate;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
 }
 .animate-pyr-1 {
 	animation-name: pyr-1;
@@ -75,8 +75,7 @@
 	animation-name: pyr-13;
 }
 
-
-.pyr-1 {
+/* .pyr-1 {
 	width: 10%;
 }
 .pyr-2 {
@@ -114,8 +113,7 @@
 }
 .pyr-13 {
 	width: 80%;
-}
-
+} */
 
 @keyframes pyr-1 {
 	from {
@@ -175,7 +173,7 @@
 }
 @keyframes pyr-8 {
 	from {
-		width:40%;
+		width: 40%;
 	}
 	to {
 		width: 45%;

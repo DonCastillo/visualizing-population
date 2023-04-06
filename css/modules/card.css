@@ -1,5 +1,6 @@
 .timeline-card {
 	margin-bottom: 90px;
+	padding:0 25px;
 }
 
 .timeline-card__header {
@@ -17,7 +18,7 @@
 
 .timeline-card__count {
 	width: 80%;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	z-index: -1;
 	position: relative;
 }
@@ -30,13 +31,16 @@
 	font-size: 4rem;
 }
 
+.timeline-card__length {
+	font-size: 1.2rem;
+}
+
 .timeline-card__time {
-	min-height: 33px;
+	min-height: 20px;
 	padding: 10px;
-	background-color: #7dcea0;
+	background-color: var(--section-one-accent-color);
 	margin: 10px 0;
 	overflow: hidden;
-    min-width: min-content;
 }
 
 .stat-box {

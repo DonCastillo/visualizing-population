@@ -35,11 +35,11 @@ body {
 }
 
 .headline span {
-    padding: 3px 18px;
-    background: var(--main-text-color);
-    color: var(--backdrop-color);
-    font-size: 1rem;
+	padding: 3px 18px;
+	background: var(--main-text-color);
+	color: var(--backdrop-color);
+	font-size: 1rem;
 }
 .w-100 {
-    width:100%;
+	width: 100%;
 }
