@@ -37,6 +37,21 @@
 	font-size: 2.5rem;
 }
 
+footer {
+	padding:45px 0;
+	background-color: var(--main-text-color);
+	color:var(--backdrop-color);
+}
+
+footer a, footer a:hover, footer a:focus {
+	color:var(--backdrop-color);
+}
+
+footer li {
+	margin-bottom:15px;
+}
+
+
 @media only screen and (max-width: 576px) {
 }
 

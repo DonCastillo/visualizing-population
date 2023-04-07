@@ -84,7 +84,7 @@
 	animation-name: pyr-13;
 }
 
-/* .pyr-1 {
+.pyr-1 {
 	width: 10%;
 }
 .pyr-2 {
@@ -122,7 +122,7 @@
 }
 .pyr-13 {
 	width: 80%;
-} */
+}
 
 @keyframes pyr-1 {
 	from {
